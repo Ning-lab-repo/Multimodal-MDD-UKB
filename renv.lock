@@ -1,0 +1,53 @@
+{
+  "R": {
+    "Version": "4.4.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      },
+      {
+        "Name": "BioCsoft",
+        "URL": "https://bioconductor.org/packages/3.19/bioc"
+      },
+      {
+        "Name": "BioCann",
+        "URL": "https://bioconductor.org/packages/3.19/data/annotation"
+      }
+    ]
+  },
+  "Packages": {
+    "clusterProfiler": {
+      "Package": "clusterProfiler",
+      "Version": "4.10.0",
+      "Source": "Bioconductor",
+      "Repository": "BioCsoft"
+    },
+    "org.Hs.eg.db": {
+      "Package": "org.Hs.eg.db",
+      "Version": "3.19.1",
+      "Source": "Bioconductor",
+      "Repository": "BioCann"
+    },
+    "AnnotationDbi": {
+      "Package": "AnnotationDbi",
+      "Source": "Bioconductor",
+      "Repository": "BioCsoft"
+    },
+    "DOSE": {
+      "Package": "DOSE",
+      "Source": "Bioconductor",
+      "Repository": "BioCsoft"
+    },
+    "enrichplot": {
+      "Package": "enrichplot",
+      "Source": "Bioconductor",
+      "Repository": "BioCsoft"
+    },
+    "ggplot2": {
+      "Package": "ggplot2",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    }
+  }
+}

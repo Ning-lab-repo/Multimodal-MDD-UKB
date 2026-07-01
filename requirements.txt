@@ -1,0 +1,15 @@
+# Python computational environment for: Multimodal data integration for diagnosis and
+# risk prediction of major depressive disorder in the UK Biobank
+#
+# Python version used for all analyses: 3.10.16
+# Generated to match package versions explicitly reported in the Methods section.
+# Authors should regenerate this file from the actual analysis environment via:
+#   pip freeze > requirements.txt
+# prior to final deposition, to capture exact transitive dependency versions.
+
+lightgbm==4.5.0
+scikit-learn==1.5.2
+scipy==1.14.1
+shap==0.46.0
+lifelines==0.29.0
+networkx==3.2.1
